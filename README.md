@@ -1,0 +1,1 @@
+# competition-between-group-interactions-and-nonlinearity-in-voter-dynamics-on-hypergraphs
