@@ -1,6 +1,6 @@
 #pragma once
 #pragma once
-/* Copyright (c) 2018 Arvid Gerstmann. */
+/* Copyright (c) 2018 Arvid Gerstmann. (https://gist.github.com/Leandros) */
 /* This code is licensed under MIT license. */
 #include<cstdint>
 #include<random>
