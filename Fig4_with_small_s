@@ -27,11 +27,11 @@ int main()
     {
         for(int w=0; w<3; ++w)
         {
-            unsigned int N=pow(10,w+2);
+            int N=pow(10,w+2);
             double dt=1.0/N;
             uniform_int_distribution<int> random_node(0,N-1);
             vector<bool> state(N);
-            unsigned int sum_n=0;
+            int sum_n=0;
             for(int i=(int)N*0.5; i<N; ++i)
             {
                 state[i]=1;
@@ -40,14 +40,14 @@ int main()
             double t_save=0.0;
             for(double t=dt; t<=t_max; t+=dt)
             {
-                unsigned int voter=random_node(gen);
+                int voter=random_node(gen);
                 bool state_of_voter=state[voter];
                 set<int> hyperedge;
                 vector<int> hyperedge_vec;
                 hyperedge.emplace(voter);
                 while(hyperedge.size()<s)
                 {
-                    unsigned int nei=random_node(gen);
+                    int nei=random_node(gen);
                     if(hyperedge.emplace(nei).second)
                     {
                         hyperedge_vec.emplace_back(nei);
@@ -56,7 +56,7 @@ int main()
                 int count=0;
                 for(int pick_count=0; pick_count<q; ++pick_count)
                 {
-                    unsigned int selected_nei=hyperedge_vec[random_nei(gen)];
+                    int selected_nei=hyperedge_vec[random_nei(gen)];
                     if (state[selected_nei] != state_of_voter)
                         ++count;
                     else
