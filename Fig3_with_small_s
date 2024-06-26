@@ -101,6 +101,6 @@ int main()
             fclose(fp);
         }
         ++t_ensemble;
-    }//making a hypergraph
+    }
 }
 
