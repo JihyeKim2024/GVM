@@ -26,11 +26,11 @@ int main()
         {
             vector<bool> state(N,1);
             double p=0.4+w*0.02; //rho(t=0)
-            int sum_n=0;
+            int sum_n=N;
             for(int i=(int)N*p; i<N; ++i)
             {
                 state[i]=0;
-                ++sum_n;
+                --sum_n;
             }//initialization
             if(sum_n==N)
             {
