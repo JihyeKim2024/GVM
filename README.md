@@ -1,7 +1,7 @@
 # Group-driven Voter Model (GVM) on Hypergraphs 
 
 This repository contains the code to reproduce Monte Carlo (MC) simulations associated with the paper:
-"Competition between group interactions and nonlinearity in voter dynamics on hypergraphs" by Jihye Kim, Deok-Sun Lee, Byungjoon Min, Mason A. Porter, Maxi San Miguel, and K.-I. Goh (2024). %arXiv:2407.xxxxx (2024)
+"Competition between group interactions and nonlinearity in voter dynamics on hypergraphs" by Jihye Kim, Deok-Sun Lee, Byungjoon Min, Mason A. Porter, Maxi San Miguel, and K.-I. Goh (2024). 
 
 ## Abstract
 
