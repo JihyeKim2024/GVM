@@ -23,7 +23,7 @@ One can reproduce the blue data points in the inset of Fig. 3 of the main manusc
 
 #### 4. Fig3_with_small_s.cpp
 This code is used for MC simulations for GVM on annealed s-uniform hypergraphs with $N$ nodes.
-One can reproduce the data points (for the case of s=3) of Fig. 3 of the main manuscript by using this code.
+One can reproduce the data points (for the case of $s=3$) of Fig. 3 of the main manuscript by using this code.
 
 #### 5. Fig4_complete_networks.cpp 
 This code is used for MC simulations for GVM on complete networks with $N$ nodes.
@@ -31,7 +31,7 @@ One can reproduce the blue data points of Fig. 4 of the main manuscript by using
 
 #### 6. Fig4_with_small_s.cpp
 This code is used for MC simulations for GVM on annealed s-uniform hypergraphs with $N$ nodes.
-One can reproduce the red and green data points (for the cases of s=3 and s=7, respectively) of Fig. 4 of the main manuscript by using this code.
+One can reproduce the red and green data points (for the cases of $s=3$ and $s=7$, respectively) of Fig. 4 of the main manuscript by using this code.
 
 #### 7. Fig5a_complete_networks.cpp 
 This code is used for MC simulations for GVM on complete networks with $N$ nodes.
@@ -39,7 +39,7 @@ One can reproduce the black data points of Fig. 5(a) of the main manuscript by u
 
 #### 8. Fig5a_with_small_s.cpp
 This code is used for MC simulations for GVM on annealed s-uniform hypergraphs with $N$ nodes.
-One can reproduce the data points (for the cases of s<<N) of Fig. 5(a) of the main manuscript by using this code.
+One can reproduce the data points (for the cases of $s \ll N$) of Fig. 5(a) of the main manuscript by using this code.
 
 #### 9. FigS2_initial_density_dependence.cpp
 This code is used for MC simulations for GVM on annealed s-uniform hypergraphs with $N$ nodes.
@@ -47,7 +47,7 @@ One can reproduce the data points of Fig. S2 of the Supplementary Material (SM) 
 
 #### 10. FigS3_prohibit_duplicate_selection.cpp
 This code is used for MC simulations for GVM without duplicate selections on annealed s-uniform hypergraphs with $N$ nodes.
-One can reproduce the red and green data points (for the cases of s=3 and s=7, respectively) of Fig. S3 of the SM by using this code.
+One can reproduce the red and green data points (for the cases of $s=3$ and $s=7$, respectively) of Fig. S3 of the SM by using this code.
 
 #### 11. FigS3_prohibit_duplicate_selection_on_complete_networks.cpp
 This code is used for MC simulations for GVM without duplicate selections on complete networks with $N$ nodes.
