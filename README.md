@@ -5,12 +5,7 @@ This repository contains the codes to reproduce Monte Carlo (MC) simulations ass
 
 ## Abstract
 
-Social dynamics are often driven by both pairwise (i.e., dyadic) relationships and higher-order (i.e., polyadic) group relationships,
-which one can describe using hypergraphs. To gain insight into the impact of polyadic relationships on dynamical processes on networks,
-we formulate and study a polyadic voter process, which we call the group-driven voter model (GVM), that incorporates
-the effect of group interactions by nonlinear interactions that are subject to a group (i.e., hyperedge) constraint.  
-By examining the competition between nonlinearity and group sizes, we show that the GVM achieves consensus faster than standard voter-model dynamics, with an optimal minimizing exit time.
-We substantiate this finding by using mean-field theory on annealed uniform hypergraphs with $N$ nodes, for which the exit time scales as ${\cal A}\ln N$, where the prefactor ${\cal A}$ depends both on the nonlinearity and on group-constraint factors. Our results reveal how competition between group interactions and nonlinearity shapes GVM dynamics. We thereby highlight the importance of such competing effects in complex systems with polyadic interactions.   
+Social dynamics are often driven by both pairwise (i.e., dyadic) relationships and higher-order (i.e., polyadic) group relationships, which one can describe using hypergraphs. To gain insight into the impact of polyadic relationships on dynamical processes on networks, we formulate and study a polyadic voter process, which we call the group-driven voter model (GVM), that incorporates the effect of group interactions by nonlinear interactions that are subject to a group (i.e., hyperedge) constraint. By examining the competition between nonlinearity and group sizes, we show that the GVM achieves consensus faster than standard voter-model dynamics, with an optimal minimizing exit time. We substantiate this finding by using mean-field theory on annealed uniform hypergraphs with $N$ nodes, for which the exit time scales as ${\cal A}\ln N$, where the prefactor ${\cal A}$ depends both on the nonlinearity and on group-constraint factors. Our results reveal how competition between group interactions and nonlinearity shapes GVM dynamics. We thereby highlight the importance of such competing effects in complex systems with polyadic interactions.   
 
 ## MC simulation codes
 
