@@ -18,41 +18,49 @@ This code is used for MC simulations for simplicial GVM on annealed hypergraphs 
 One can reproduce Fig. 2(b) of the main manuscript by using this code.
 
 #### 3. Fig3_complete_networks.cpp 
-This code is used for MC simulations for GVM on complete networks with $N$ nodes.
+This code is used for MC simulations for our GVM on complete networks with $N$ nodes.
 One can reproduce the blue data points in the inset of Fig. 3 of the main manuscript by using this code.
 
 #### 4. Fig3_with_small_s.cpp
-This code is used for MC simulations for GVM on annealed s-uniform hypergraphs with $N$ nodes.
+This code is used for MC simulations for our GVM on annealed s-uniform hypergraphs with $N$ nodes.
 One can reproduce the data points (for the case of $s=3$) of Fig. 3 of the main manuscript by using this code.
 
 #### 5. Fig4_complete_networks.cpp 
-This code is used for MC simulations for GVM on complete networks with $N$ nodes.
+This code is used for MC simulations for our GVM on complete networks with $N$ nodes.
 One can reproduce the blue data points of Fig. 4 of the main manuscript by using this code.
 
 #### 6. Fig4_with_small_s.cpp
-This code is used for MC simulations for GVM on annealed s-uniform hypergraphs with $N$ nodes.
+This code is used for MC simulations for our GVM on annealed s-uniform hypergraphs with $N$ nodes.
 One can reproduce the red and green data points (for the cases of $s=3$ and $s=7$, respectively) of Fig. 4 of the main manuscript by using this code.
 
 #### 7. Fig5a_complete_networks.cpp 
-This code is used for MC simulations for GVM on complete networks with $N$ nodes.
+This code is used for MC simulations for our GVM on complete networks with $N$ nodes.
 One can reproduce the black data points of Fig. 5(a) of the main manuscript by using this code.
 
 #### 8. Fig5a_with_small_s.cpp
-This code is used for MC simulations for GVM on annealed s-uniform hypergraphs with $N$ nodes.
+This code is used for MC simulations for our GVM on annealed s-uniform hypergraphs with $N$ nodes.
 One can reproduce the data points (for the cases of $s \ll N$) of Fig. 5(a) of the main manuscript by using this code.
 
 #### 9. FigS2_initial_density_dependence.cpp
-This code is used for MC simulations for GVM on annealed s-uniform hypergraphs with $N$ nodes.
+This code is used for MC simulations for our GVM on annealed s-uniform hypergraphs with $N$ nodes.
 One can reproduce the data points of Fig. S2 of the Supplementary Material (SM) by using this code.
 
-#### 10. FigS3_prohibit_duplicate_selection.cpp
+#### 9. FigS3_geometric_Ps.cpp
+This code is used for MC simulations for our GVM on annealed hypergraphs with $N$ nodes and geometric hyperedge-size distribution.
+One can reproduce the data points of Fig. S3 of the Supplementary Material (SM) by using this code.
+
+#### 9. FigS4_powerlaw_Pk.cpp
+This code is used for MC simulations for our GVM on annealed hypergraphs with $N$ nodes and powerlaw degree distribution.
+One can reproduce the data points of Fig. S4 of the Supplementary Material (SM) by using this code.
+
+#### 10. FigS5_prohibit_duplicate_selection.cpp
 This code is used for MC simulations for GVM without duplicate selections on annealed s-uniform hypergraphs with $N$ nodes.
 One can reproduce the red and green data points (for the cases of $s=3$ and $s=7$, respectively) of Fig. S3 of the SM by using this code.
 
-#### 11. FigS3_prohibit_duplicate_selection_on_complete_networks.cpp
+#### 11. FigS5_prohibit_duplicate_selection_on_complete_networks.cpp
 This code is used for MC simulations for GVM without duplicate selections on complete networks with $N$ nodes.
 One can reproduce the blue data points of Fig. S3 of the SM by using this code.
 
-#### 12. FigS4_hyperedge_flipping.cpp
+#### 12. FigS6_hyperedge_flipping.cpp
 This code is used for MC simulations for GVM with hyperedge-update dynamics on annealed s-uniform hypergraphs with $N$ nodes.
 One can reproduce the data points of Fig. S4 of the SM by using this code.
