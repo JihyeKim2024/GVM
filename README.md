@@ -55,12 +55,12 @@ One can reproduce the data points of Fig. S4 of the Supplementary Material (SM) 
 
 #### 10. FigS5_prohibit_duplicate_selection.cpp
 This code is used for MC simulations for GVM without duplicate selections on annealed s-uniform hypergraphs with $N$ nodes.
-One can reproduce the red and green data points (for the cases of $s=3$ and $s=7$, respectively) of Fig. S3 of the SM by using this code.
+One can reproduce the red and green data points (for the cases of $s=3$ and $s=7$, respectively) of Fig. S5 of the SM by using this code.
 
 #### 11. FigS5_prohibit_duplicate_selection_on_complete_networks.cpp
 This code is used for MC simulations for GVM without duplicate selections on complete networks with $N$ nodes.
-One can reproduce the blue data points of Fig. S3 of the SM by using this code.
+One can reproduce the blue data points of Fig. S5 of the SM by using this code.
 
 #### 12. FigS6_hyperedge_flipping.cpp
 This code is used for MC simulations for GVM with hyperedge-update dynamics on annealed s-uniform hypergraphs with $N$ nodes.
-One can reproduce the data points of Fig. S4 of the SM by using this code.
+One can reproduce the data points of Fig. S6 of the SM by using this code.
