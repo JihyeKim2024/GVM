@@ -85,7 +85,7 @@ int main()
         }// N
         if(t_ensemble==10 or t_ensemble==50 or t_ensemble==100 or t_ensemble==1000 or t_ensemble==5000 or t_ensemble==10000 or t_ensemble==50000 or t_ensemble==100000 or t_ensemble==1000000 or t_ensemble==10000000 or t_ensemble==100000000 or t_ensemble==1000000000)
         {
-            sprintf(fname,"FigS3_sN_q%d_en%d.txt",q,t_ensemble);
+            sprintf(fname,"FigS5_sN_q%d_en%d.txt",q,t_ensemble);
             fp=fopen(fname,"w");
             for(int i=0; i<3; ++i)
             {
